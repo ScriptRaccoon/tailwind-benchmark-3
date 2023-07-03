@@ -30,4 +30,6 @@ The total bundle size of Tailwind is **33%** larger than the Vanilla CSS version
 
 Tailwind's CSS output contains several unused CSS variables such as `--tw-bg-opacity:1`. When we remove these, the file size reduces to 1.384 bytes, which is still a bit larger than the Vanilla CSS file. In any case, Tailwind's HTML will be larger.
 
-As in the previous benchmarks, these are rather small projects, and it is not clear if they are representative of real-world projects. Further testing is necessary.
+As in the previous benchmarks, these are rather small projects, and it is not clear if they are representative of real-world projects. Further testing is necessary\*.
+
+\*See [this benchmark](https://github.com/TGlide/tailwind-benchmark) by Thomas G. Lopes with more data, where Tailwind's bundle size is indeed smaller.
